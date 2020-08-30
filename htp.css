@@ -1,0 +1,148 @@
+.nav-link {
+  color: black;
+  font-size: 20px;
+  transition: all 1s linear;
+}
+
+.nav-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-item {
+  margin-right: auto;
+}
+
+nav {
+  margin-bottom: 3%;
+}
+
+.dropdown-item {
+  transition: all 0.3s linear;
+}
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbaricon {
+  color: black;
+}
+
+/* below nav */
+.title {
+  margin-bottom: 8%;
+}
+.FEI {
+  text-align: center;
+}
+
+.un {
+  position: relative;
+  font-size: 80px;
+  padding-top: 8%;
+}
+.belownav:hover .un {
+  text-decoration: underline;
+}
+/* .belownav:hover .un {
+  border-bottom: 3px solid black;
+  width: 30%;
+} */
+
+/* .un::before {
+  content: " ";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  bottom: 0;
+  left: 40%;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 1s linear 4s;
+}
+.un1 {
+  position: relative;
+}
+
+.un1::before {
+  width: 30%;
+  left: 36%;
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 1s ease-in-out 1s;
+}
+
+.un2 {
+  position: relative;
+}
+
+.un2::before {
+  width: 35%;
+  left: 33%;
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.un3 {
+  position: relative;
+}
+.un3::before {
+  width: 45%;
+  left: 28%;
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 0.3s ease-in-out 0s;
+} */
+
+.img {
+  text-align: center;
+}
+
+.bat {
+  margin-top: 7%;
+}
+
+/* How to play */
+
+.screenshots {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  /* margin-left: 40%; */
+}
+.sspic {
+  border-radius: 40px;
+}
+
+.carousel-caption {
+  color: white;
+  text-align: center;
+  /* margin: auto; */
+  /* margin-left: 47%;
+  margin-bottom: 20%; */
+  font-size: 30px;
+}
+.paragraph {
+  font-size: 20px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators {
+  background-color: black;
+  top: 100%;
+}
+/* footer */
+footer {
+  background-color: rgba(128, 128, 128, 0.5);
+  text-align: center;
+  margin-top: 3%;
+}
